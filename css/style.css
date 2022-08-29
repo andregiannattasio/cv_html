@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'JetBrains Mono', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon-class {
+  font-size: 20px;
+  color: black;
+}
+
+.page-container {
+  width: 80%;
+  margin: 32px auto;
+  position: relative;
+}
+.contact-container {
+  margin: 20px 0 0 0;
+  line-height: 30px;
+}
+
+.about-me-container {
+  margin: 20px auto;
+}
+.header-container {
+  margin: 0 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo-profile {
+  height: 240px;
+  width: 190px;
+  object-fit: cover;
+  border: 1px solid;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.content-title {
+  width: 200px;
+}
+
+.content {
+  width: 50%;
+  border-left: 1px solid;
+  padding-left: 50px;
+}
+
+.experience-title {
+  font-weight: bold;
+}
+
+.ocupation-title {
+  font-style: italic;
+}
+
+.list-item {
+  margin-left: 15px;
+}
